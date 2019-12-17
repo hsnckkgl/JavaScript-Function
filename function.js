@@ -1,10 +1,17 @@
-let myNumbers=[3,5,6,7,8];
-function biggerThanFive() {
-   for (let index = 0; index < myNumbers.length; index++) {
-       let element = myNumbers[index];
+let myNumbers = [3,5,6,7,8,9];
+let overFive = [];
+
+function biggerThanFive(numbers) {
+   for (let i = 0; i < numbers.length; i++) {
+       let element = numbers[i];
        if (element>5) {
-           alert(element);
+           overFive.push(element);
+       
        }
    }
     
 }
+biggerThanFive(myNumbers);
+
+// console.log(overFive);
+alert(overFive);
