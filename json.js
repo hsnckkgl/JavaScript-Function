@@ -1,11 +1,31 @@
-var tasks = [
+// Tamamlanmadi!!!!!
+
+let todoData = [
     {
-        title: "go to school",
-        complete: true
+        task: "do the homework",
+        done : true
     },
     {
-        title: "return from school",
-        complete: false
+        task: "go to gym",
+        done: false
+    },
+    {
+        task: "go to school",
+        done: false
     }
 ];
-console.log(tasks);
+let myJSON;
+function checkComplete(todoData) {
+    if (todoData.done==true) {
+     myJSON = JSON.stringify(checkComplete);
+    } return todoData.task;
+}
+
+
+function done() {
+    document.getElementById("done").innerHTML = "Status: " + myJSON;
+}
+
+function notYet() {
+    document.getElementById("notyet").innerHTML = "Status: " + myJSON;
+}
