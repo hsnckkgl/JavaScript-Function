@@ -16,8 +16,8 @@ let todoData = [
 ];
 let myJSON;
 function checkComplete(todoData) {
-    if (todoData.done==true) {
-     myJSON = JSON.stringify(checkComplete);
+    if (JSON.stringify(todoData.done)==true) {
+     myJSON = (checkComplete);
     } return todoData.task;
 }
 
