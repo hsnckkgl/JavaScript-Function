@@ -1,1 +1,1 @@
-# function
+JavaScript Function and Array
